@@ -1,0 +1,85 @@
+aid: northzone
+name: Northzone
+description: >-
+  Northzone is a multi-stage venture capital firm founded in 1996 in Oslo and now headquartered in
+  London, with additional offices in New York, Stockholm, Berlin and Amsterdam. The firm partners with
+  founders across the United States and Europe from Seed through Growth, positioning itself as a single
+  long-term partner from the first check all the way to IPO, with check sizes ranging from roughly $1M
+  to $50M. Over nearly three decades Northzone has raised 13 funds, backed more than 250 companies,
+  produced 18 unicorns and 14 IPOs, and reports $3.1bn+ in assets under management; its most recent
+  flagship vehicle raised approximately €1bn. Northzone invests broadly across AI, enterprise software,
+  fintech, consumer, healthcare, climate and energy, and infrastructure and developer tools, and is
+  known for early backing of category creators including Spotify, Klarna, Trustpilot, Kahoot!, Personio,
+  TrueLayer, Avito and iZettle. The firm supports portfolio companies through a Platform team and a
+  network of 500+ operators drawn from companies such as OpenAI, Anthropic and Stripe.
+image: https://northzone.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Growth Equity
+  - Artificial Intelligence
+  - Enterprise
+  - Fintech
+  - Consumer
+  - Healthcare
+  - Climate
+  - Developer Tools
+  - Europe
+  - London
+apis: []
+common:
+  - type: Website
+    url: https://northzone.com/
+  - type: Portfolio
+    url: https://northzone.com/portfolio/
+  - type: Portfolio
+    url: portfolio/northzone-portfolio.yml
+  - type: Team
+    url: https://northzone.com/team/
+  - type: Team
+    url: team/northzone-team.yml
+  - type: InvestmentThesis
+    url: https://northzone.com/our-story/
+  - type: InvestmentThesis
+    url: https://northzone.com/platform
+  - type: Blog
+    url: https://northzone.com/insights
+  - type: News
+    url: https://northzone.com/insights
+  - type: Jobs
+    url: https://portfolio.northzone.com/companies
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/northzone
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/northzone/
+  - type: Twitter
+    url: https://x.com/northzoneVC
+  - type: Features
+    data:
+      - "Stage: Seed to Growth (multi-stage, first check to IPO)"
+      - "Typical check: ~$1M-$50M"
+      - "Sectors: AI, enterprise software, fintech, consumer, healthcare, climate & energy, infrastructure & developer tools"
+      - "Geography: Europe and the United States"
+      - "AUM: $3.1bn+ (self-reported); latest flagship fund ~EUR 1bn"
+      - "Track record: 250+ companies, 18 unicorns, 14 IPOs, 13 funds"
+      - "Founded: 1996 (Oslo)"
+      - "HQ: London, UK (offices in New York, Stockholm, Berlin, Amsterdam)"
+    sources:
+      - https://northzone.com/our-story/
+      - https://northzone.com/portfolio/
+      - https://northzone.com/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Northzone
+    url: https://northzone.com/
