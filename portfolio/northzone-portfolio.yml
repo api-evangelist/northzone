@@ -3,9 +3,9 @@ method: searched
 source: https://northzone.com/portfolio/
 summary:
   portfolio_total: 140
-  in_network: 19
-  api_providers: 14
-  missing: 121
+  in_network: 140
+  api_providers: 36
+  missing: 0
   stubs_created: 0
 companies:
 - name: Aidence
@@ -15,9 +15,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/aidence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aidence
+  slug: aidence
+  matched_by: domain
 - name: Airforestry
   url: https://www.airforestry.com
   description: AirForestry's ground-breaking technology makes it possible to thin forests in a completely
@@ -27,9 +28,10 @@ companies:
   sector: climate-energy; ai
   status: unknown
   source: https://northzone.com/portfolio/airforestry
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airforestry
+  slug: airforestry
+  matched_by: domain
 - name: Alphora Holdings
   url: https://alphoraholdings.com
   description: 'Alphora is building an AI-native IT Service provider. The agentic platform runs IT end-to-end:
@@ -38,9 +40,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/alphora-holdings
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alphora-holdings
+  slug: alphora-holdings
+  matched_by: domain
 - name: Anyfin
   url: http://anyfin.com
   description: Anyfin is a fintech platform that helps consumers manage and refinance debt, such as part-payments,
@@ -49,9 +52,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/anyfin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anyfin
+  slug: anyfin
+  matched_by: domain
 - name: Asetek
   url: http://www.asetek.com
   description: Asetek develops energy-efficient liquid cooling solutions for computers, servers, and data
@@ -59,9 +63,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/asetek
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asetek
+  slug: asetek
+  matched_by: domain
 - name: Avito
   url: http://www.avito.ru
   description: Avito is Russia’s leading classified ads marketplace, allowing individuals and businesses
@@ -70,9 +75,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/avito
-  in_network: false
-  is_api_provider: false
-  suggested_slug: avito
+  in_network: true
+  is_api_provider: true
+  slug: avito
+  matched_by: domain
 - name: Axon
   url: https://www.axonlabs.co
   description: Just like the brain, Axon predicts before it perceives—its brain-inspired AI for HFT anticipates
@@ -81,9 +87,10 @@ companies:
   sector: ai
   status: unknown
   source: https://northzone.com/portfolio/axon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axon
+  slug: axon
+  matched_by: domain
 - name: Bedrock
   url: https://www.bedrockocean.com
   description: Bedrock’s autonomous underwater vehicle (AUV) technology and data cloud platform reduces
@@ -93,9 +100,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/bedrock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bedrock
+  slug: bedrock
+  matched_by: domain
 - name: Behaviosec
   url: https://www.behaviosec.com
   description: BehavioSec Inc. focuses on innovation in behavioral biometrics is commercializing research
@@ -103,9 +111,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/behaviosec
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: behaviosec
+  slug: behaviosec
+  matched_by: domain
 - name: Berry Street
   url: https://www.berrystreet.co
   description: Berry Street's platform connects patients with chronic conditions—like gastrointestinal
@@ -115,9 +124,10 @@ companies:
   sector: healthcare; ai
   status: unknown
   source: https://northzone.com/portfolio/berry-street
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: berry-street
+  slug: berry-street
+  matched_by: domain
 - name: Black Forest Labs
   url: https://bfl.ai
   description: Black Forest Labs is a frontier AI research lab building advanced visual intelligence and
@@ -137,9 +147,10 @@ companies:
   sector: ai
   status: unknown
   source: https://northzone.com/portfolio/blitzy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blitzy
+  slug: blitzy
+  matched_by: domain
 - name: Brickanta
   url: https://www.brickanta.com
   description: Brickanta is a Stockholm‑based construction tech startup building an AI‑native operating
@@ -149,9 +160,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/brickanta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brickanta
+  slug: brickanta
+  matched_by: domain
 - name: Bunch
   url: https://bunch.live
   description: Bunch is the first app that lets you play your favourite games with friends over video
@@ -159,9 +171,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/bunch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bunch
+  slug: z1
+  matched_by: domain
 - name: Caronsale
   url: https://www.caronsale.com
   description: CarOnSale is the leading digital operating system for B2B auto sales across Europe, providing
@@ -169,9 +182,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/caronsale
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caronsale
+  slug: caronsale
+  matched_by: domain
 - name: Catawiki
   url: https://www.catawiki.com
   description: Europe’s fastest-growing online auction house, featuring a wide range of special objects.
@@ -181,9 +195,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/catawiki
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: catawiki
+  slug: catawiki
+  matched_by: domain
 - name: Chord
   url: https://chord.co
   description: Chord’s commerce-as-a-service software offers commerce businesses technology and data products
@@ -208,9 +223,10 @@ companies:
   sector: healthcare; ai
   status: unknown
   source: https://northzone.com/portfolio/clarium
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clarium
+  slug: clarium
+  matched_by: domain
 - name: Crosslend
   url: http://www.crosslend.com
   description: CrossLend designs a cross-border marketplace lending platform that makes pan-European investments
@@ -221,9 +237,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/crosslend
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosslend
+  slug: crosslend
+  matched_by: domain
 - name: Cuspai
   url: https://www.cuspai.com
   description: CuspAI is building a generative AI search engine for new materials. Their platform accelerates
@@ -232,9 +249,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/cuspai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cuspai
+  slug: cuspai
+  matched_by: name-slug
 - name: Dalma
   url: https://www.dalma.co
   description: Dalma offers transparent, subscription-based health insurance that covers pets, reimbursing
@@ -242,9 +260,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/dalma
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dalma
+  slug: dalma
+  matched_by: domain
 - name: Defacto
   url: https://www.getdefacto.com
   description: Defacto is a fintech firm that offers credit infrastructure using an API for small and
@@ -252,9 +271,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/defacto
-  in_network: false
-  is_api_provider: false
-  suggested_slug: defacto
+  in_network: true
+  is_api_provider: true
+  slug: defacto
+  matched_by: domain
 - name: Disperse
   url: http://disperse.io
   description: Disperse is the leader in AI-powered construction transformation solutions. The company’s
@@ -263,9 +283,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/disperse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: disperse
+  slug: disperse
+  matched_by: name-slug
 - name: Distribusion
   url: https://distribusion.com
   description: Distribusion’s technology enables intercity bus operators to partner with travel resellers,
@@ -276,9 +297,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/distribusion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: distribusion
+  slug: distribusion
+  matched_by: domain
 - name: Dots
   url: https://www.dots.co
   description: Dots is a casual game about connecting. Dots are aiming to create well designed, easy-to-approach,
@@ -289,9 +311,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/dots
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dots
+  slug: dots
+  matched_by: domain
 - name: Duvo Ai
   url: https://www.duvo.ai
   description: Duvo.ai is an automation platform that enables enterprises to streamline complex, non-deterministic
@@ -300,9 +323,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/duvo-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: duvo-ai
+  in_network: true
+  is_api_provider: true
+  slug: duvo-ai
+  matched_by: domain
 - name: Einride
   url: https://www.einride.tech
   description: Einride is a logistics and mobility company building smart, electric, and autonomous vehicles
@@ -311,9 +335,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/einride
-  in_network: false
-  is_api_provider: false
-  suggested_slug: einride
+  in_network: true
+  is_api_provider: true
+  slug: einride
+  matched_by: domain
 - name: Energy Micro
   url: http://www.energymicro.com
   description: Energy Micro develops and sells energy friendly microcontrollers and radios, based on modern
@@ -321,9 +346,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/energy-micro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: energy-micro
+  slug: energy-micro
+  matched_by: domain
 - name: Episerver
   url: http://www.episerver.com
   description: Episerver is a global software company offering web content management, digital commerce,
@@ -331,9 +357,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/episerver
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: episerver
+  slug: episerver
+  matched_by: name-slug
 - name: Era
   url: https://era.app
   description: Era is a wealth management platform set to transform the personal financial management
@@ -341,9 +368,10 @@ companies:
   sector: fintech; ai
   status: unknown
   source: https://northzone.com/portfolio/era
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: era
+  slug: era
+  matched_by: domain
 - name: Fiberplane
   url: https://fiberplane.dev
   description: Fiberplane offers collaborative notebooks for resolving incidents. Their goal is to change
@@ -351,9 +379,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/fiberplane
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fiberplane
+  slug: fiberplane
+  matched_by: name-slug
 - name: Filed
   url: https://www.filed.com
   description: Filed is building the first truly scalable infrastructure for the modern tax firm - AI-native,
@@ -363,9 +392,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/filed
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: filed
+  slug: filed
+  matched_by: domain
 - name: Finom
   url: https://finom.co
   description: Finom is a leading SME neobank, revolutionizing banking services for entrepreneurs and
@@ -374,9 +404,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/finom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finom
+  slug: finom
+  matched_by: domain
 - name: Fishbrain
   url: https://fishbrain.com
   description: The world’s biggest sport fishing mobile app. The Fishbrain app is a powerful tool for
@@ -385,9 +416,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/fishbrain
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fishbrain
+  slug: fishbrain
+  matched_by: domain
 - name: Flink
   url: https://www.goflink.com
   description: Flink is a quick-commerce grocery delivery startup that delivers everyday items from local
@@ -407,18 +439,20 @@ companies:
   sector: climate-energy; ai
   status: unknown
   source: https://northzone.com/portfolio/flower
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flower
+  slug: flower
+  matched_by: name-slug
 - name: Footway
   url: https://www.footway.co.uk
   description: The biggest shoe e-tailer in the Nordics
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/footway
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: footway
+  slug: footway
+  matched_by: domain
 - name: Forto
   url: http://freighthub.com
   description: Forto (formerly FreightHub) is the first fully digital freight forwarding company in Europe
@@ -440,9 +474,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/fubotv
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fubotv
+  slug: fubotv
+  matched_by: domain
 - name: Funcom
   url: https://www.funcom.com
   description: FunCom is a video game development company that develops and publishes massively multiplayer
@@ -450,18 +485,20 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/funcom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: funcom
+  slug: funcom
+  matched_by: domain
 - name: Fyndiq
   url: http://www.fyndiq.se
   description: Fyndiq is the ultimate bargain superstore
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/fyndiq
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fyndiq
+  in_network: true
+  is_api_provider: true
+  slug: fyndiq
+  matched_by: domain
 - name: Gc Ai
   url: https://gc.ai
   description: GC AI is an AI platform for in-house legal teams that automates routine legal work like
@@ -470,9 +507,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/gc-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gc-ai
+  in_network: true
+  is_api_provider: true
+  slug: gc-ai
+  matched_by: domain
 - name: Genesis Ai
   url: https://genesis-ai.company
   description: 'Genesis AI emerges from stealth with an ambitious vision: to build the foundational model
@@ -481,9 +519,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/genesis-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genesis-ai
+  slug: genesis-ai
+  matched_by: name-slug
 - name: Goals
   url: https://goals.co
   description: Goals is a free-to-play, multiplayer-focused football video game designed specifically
@@ -491,9 +530,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/goals
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goals
+  slug: goals
+  matched_by: name-slug
 - name: Govdash
   url: https://govdash.com
   description: GovDash is an AI platform for government contracting, transforming how teams find opportunities,
@@ -502,9 +542,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/govdash
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: govdash
+  slug: govdash
+  matched_by: domain
 - name: Happyornot
   url: http://happy-or-not.com
   description: A global leader in instant customer and employee satisfaction reporting with their innovative
@@ -513,9 +554,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/happyornot
-  in_network: false
-  is_api_provider: false
-  suggested_slug: happyornot
+  in_network: true
+  is_api_provider: true
+  slug: happyornot
+  matched_by: domain
 - name: Heltia
   url: https://www.getheltia.com
   description: Heltia is Turkey’s leading personalised preventive health management platform, offering
@@ -524,9 +566,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/heltia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heltia
+  slug: heltia
+  matched_by: domain
 - name: Hero Journey Club
   url: https://www.herojourney.club
   description: Hero Journey Club provides community-based mental health support inside virtual gathering
@@ -534,9 +577,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/hero-journey-club
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hero-journey-club
+  slug: hero-journey-club
+  matched_by: domain
 - name: Hidden Door
   url: https://www.hiddendoor.co
   description: Hidden Door is an online game platform for youngsters to delight themselves by discovering,
@@ -546,9 +590,10 @@ companies:
   sector: consumer; ai
   status: unknown
   source: https://northzone.com/portfolio/hidden-door
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hidden-door
+  slug: hidden-door
+  matched_by: domain
 - name: Holidu
   url: https://www.holidu.co.uk
   description: Holidu is one of the fastest-growing travel tech companies worldwide that aims to finally
@@ -559,9 +604,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/holidu
-  in_network: false
-  is_api_provider: false
-  suggested_slug: holidu
+  in_network: true
+  is_api_provider: true
+  slug: holidu
+  matched_by: name-slug
 - name: Homa Games
   url: https://www.homagames.com
   description: Homa Games is a leading mobile game developer and publisher specializing in hypercasual
@@ -570,9 +616,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/homa-games
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homa-games
+  slug: homa-games
+  matched_by: domain
 - name: Hopin
   url: https://hopin.to
   description: Hopin is the first all-in-one live online events platform where attendees can learn, interact,
@@ -591,9 +638,10 @@ companies:
   sector: ai
   status: unknown
   source: https://northzone.com/portfolio/iconic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iconic
+  slug: iconicgames
+  matched_by: domain
 - name: Idoven
   url: https://www.idoven.ai
   description: Idoven is building AI-powered tools and services to transform how cardiac diagnosis and
@@ -603,9 +651,10 @@ companies:
   sector: healthcare; ai
   status: unknown
   source: https://northzone.com/portfolio/idoven
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: idoven
+  slug: idoven
+  matched_by: domain
 - name: Jasper
   url: http://www.jasper-da.com
   description: Jasper Design is an electronic design automation company developing verification system
@@ -613,9 +662,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/jasper
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jasper
+  slug: jasper
+  matched_by: name-slug
 - name: Jow
   url: https://jow.com
   description: Jow allows customers to efficiently choose recipes, plan menus and complete their weekly
@@ -625,9 +675,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/jow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jow
+  slug: jow
+  matched_by: domain
 - name: Kahoot
   url: https://kahoot.com
   description: Kahoot! is a game-based educational platform, making it easy to create quizzes and interactive
@@ -647,9 +698,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/katana
-  in_network: false
-  is_api_provider: false
-  suggested_slug: katana
+  in_network: true
+  is_api_provider: true
+  slug: katana
+  matched_by: domain
 - name: Klang
   url: http://klang-games.com
   description: Klang Games is an independent game development studio based in Berlin. Klang aims to create
@@ -657,9 +709,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/klang
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klang
+  slug: klang
+  matched_by: domain
 - name: Klarna
   url: https://www.klarna.com
   description: Klarna is a fintech & digital bank enabling seamless shopping through 'Buy Now Pay Later',
@@ -683,9 +736,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/kota
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kota
+  in_network: true
+  is_api_provider: true
+  slug: kota
+  matched_by: domain
 - name: Kriya
   url: https://www.kriya.co
   description: Kriya (formerly MarketFinance) is a business finance company. The online platform enables
@@ -697,9 +751,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/kriya
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kriya
+  in_network: true
+  is_api_provider: true
+  slug: kriya
+  matched_by: domain
 - name: Labster
   url: https://www.labster.com
   description: Labster is a company dedicated to developing fully interactive advanced lab simulations
@@ -709,9 +764,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/labster
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: labster
+  slug: labster
+  matched_by: domain
 - name: Lastminute Com
   url: http://www.lastminute.com
   description: Lastminute is Europe’s leading travel and leisure website. Based on the idea of matching
@@ -721,9 +777,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/lastminute-com
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lastminute-com
+  slug: lastminute-com
+  matched_by: domain
 - name: Livepeer
   url: http://livepeer.org
   description: Livepeer is creating a scalable Platform as a Service for developers who want to add live
@@ -746,9 +803,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/logicstar
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: logicstar
+  slug: logicstar
+  matched_by: domain
 - name: Lorum
   url: https://www.lorum.com
   description: Lorum (previously Fuse) delivers global clearing infrastructure without intermediary banks—direct
@@ -757,9 +815,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/lorum
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lorum
+  in_network: true
+  is_api_provider: true
+  slug: lorum
+  matched_by: domain
 - name: Magic Labs
   url: https://magic.link
   description: Magic aims to make passwordless the gold standard for online applications. Magic is the
@@ -780,18 +839,20 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/mamut
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mamut
+  slug: mamut
+  matched_by: domain
 - name: Masmovil
   url: http://www.masmovil.es
   description: A Spanish mobile network operator (MNO).
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/masmovil
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: masmovil
+  slug: masmovil
+  matched_by: domain
 - name: Matsmart
   url: https://www.matsmart.se
   description: Matsmart sells surplus food online. A major part of the food would otherwise be thrown
@@ -801,9 +862,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/matsmart
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matsmart
+  slug: matsmart
+  matched_by: domain
 - name: Medwing
   url: https://medwing.com
   description: MEDWING serves as the most trusted and convenient platform for finding opportunities and
@@ -812,9 +874,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/medwing
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medwing
+  slug: medwing
+  matched_by: domain
 - name: Microagi
   url: https://www.microagi.ai
   description: MicroAGI helps the leading industrial enterprises optimize robotic deployments across their
@@ -822,9 +885,10 @@ companies:
   sector: ai
   status: unknown
   source: https://northzone.com/portfolio/microagi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: microagi
+  slug: microagi
+  matched_by: domain
 - name: Microverse
   url: https://www.microverse.org
   description: Microverse is an online school for remote software developers. Their mission is to educate
@@ -834,9 +898,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/microverse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: microverse
+  slug: microverse
+  matched_by: domain
 - name: Mimo
   url: https://www.mimohq.com
   description: Mimo provides a suite of financial tools that bundles the features needed for SMBs to better
@@ -848,9 +913,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/mimo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mimo
+  slug: mimo
+  matched_by: domain
 - name: Monumental
   url: https://www.monumental.co
   description: Monumental combines AI, autonomous tech, and low-cost hardware to create robots capable
@@ -859,9 +925,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/monumental
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monumental
+  slug: monumental
+  matched_by: domain
 - name: Murphy
   url: https://www.getmurphy.ai
   description: 'Murphy is reimagining debt collection by replacing traditional, labour-intensive call
@@ -871,9 +938,10 @@ companies:
   sector: fintech; ai
   status: unknown
   source: https://northzone.com/portfolio/murphy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: murphy
+  slug: murphy
+  matched_by: domain
 - name: Na Kd
   url: http://na-kd.com
   description: NA-KD.com is the next generation of fashion marketplaces. A predominantly mobile-based
@@ -882,9 +950,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/na-kd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: na-kd
+  slug: na-kd
+  matched_by: domain
 - name: Napatech
   url: https://www.napatech.com
   description: Napatech delivers FPGA-powered SmartNICs and DPUs that accelerate high-speed networking,
@@ -893,9 +962,10 @@ companies:
   sector: infra-devtools
   status: unknown
   source: https://northzone.com/portfolio/napatech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: napatech
+  slug: napatech
+  matched_by: domain
 - name: Nested
   url: http://nested.com
   description: Nested is an estate agent with a difference. It provides home sellers with up to 95% of
@@ -904,9 +974,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/nested
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nested
+  slug: nested
+  matched_by: domain
 - name: Nextgentel
   url: https://www.nextgentel.no
   description: NextGenTel offers mobile and broadband services, including internet, VoIP and IPTV, to
@@ -915,9 +986,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/nextgentel
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nextgentel
+  slug: nextgentel
+  matched_by: domain
 - name: Nimsoft
   url: http://www.nimsoft.com
   description: Nimsoft provides SaaS-based IT monitoring and service desk software and services for companies
@@ -925,9 +997,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/nimsoft
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimsoft
+  slug: nimsoft
+  matched_by: domain
 - name: Nirvana
   url: https://www.meetnirvana.com
   description: With Nirvana’s automated benefit verification APIs and technology, healthcare providers
@@ -948,9 +1021,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/nivoda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nivoda
+  slug: nivoda
+  matched_by: domain
 - name: Noda
   url: https://noda.ai
   description: (Formerly known as Infogrid) Combining the world's smallest IoT sensors with powerful AI,
@@ -960,9 +1034,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/noda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noda
+  slug: noda
+  matched_by: domain
 - name: Openfx
   url: https://www.openfx.com
   description: OpenFX is building a cross-border payment infrastructure using stablecoins to enable cheaper,
@@ -971,9 +1046,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/openfx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openfx
+  slug: openfx
+  matched_by: domain
 - name: Openzeppelin
   url: https://www.openzeppelin.com
   description: OpenZeppelin is a development platform designed specifically for smart contract projects.
@@ -996,9 +1072,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/outfittery
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outfittery
+  slug: outfittery
+  matched_by: domain
 - name: Personio
   url: http://personio.de
   description: Personio is powering the digitization of HR departments. The platform, designed for mid-sized
@@ -1019,9 +1096,10 @@ companies:
   sector: healthcare; ai
   status: unknown
   source: https://northzone.com/portfolio/predoc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: predoc
+  slug: predoc
+  matched_by: domain
 - name: Pricerunner
   url: https://www.pricerunner.com
   description: Pricerunner became the leading price comparison service in the Nordics and UK empowering
@@ -1029,9 +1107,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/pricerunner
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pricerunner
+  slug: pricerunner
+  matched_by: domain
 - name: Qt
   url: https://www.qt.io
   description: Qt (formerly Trolltech) provides software development platforms, tools, and frameworks
@@ -1039,9 +1118,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/qt
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qt
+  slug: qt
+  matched_by: domain
 - name: Ravio
   url: https://ravio.com
   description: Attracting and retaining great people is the number one priority of any successful business.
@@ -1054,9 +1134,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/ravio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ravio
+  slug: ravio
+  matched_by: domain
 - name: Rayon
   url: https://rayon.design
   description: Design processes in AEC industries have traditionally been siloed, relying on PDFs and
@@ -1066,9 +1147,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/rayon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rayon
+  slug: rayon
+  matched_by: domain
 - name: Recall Labs
   url: https://recall.network
   description: Recall Labs storage is simple, secure, and private by design. Apps that store data with
@@ -1076,9 +1158,10 @@ companies:
   sector: infra-devtools
   status: unknown
   source: https://northzone.com/portfolio/recall-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: recall-labs
+  in_network: true
+  is_api_provider: true
+  slug: recall
+  matched_by: domain
 - name: Red Points
   url: http://redpoints.com
   description: Red Points is a technology company that provides a smart solution for brands and content
@@ -1088,9 +1171,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/red-points
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: red-points
+  slug: red-points
+  matched_by: domain
 - name: Reonic
   url: https://reonic.de
   description: Reonic is a climate tech software platform, enabling installers to sell, design, and manage
@@ -1099,9 +1183,10 @@ companies:
   sector: climate-energy; ai
   status: unknown
   source: https://northzone.com/portfolio/reonic
-  in_network: false
-  is_api_provider: false
-  suggested_slug: reonic
+  in_network: true
+  is_api_provider: true
+  slug: reonic
+  matched_by: domain
 - name: Riff
   url: https://riff.new
   description: Riff empowers business "doers" to build and implement applications and automations that
@@ -1111,9 +1196,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/riff
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: riff
+  slug: riff
+  matched_by: domain
 - name: Safello
   url: https://safello.com
   description: Safello operates a bitcoin exchange and related services in the European market. It partners
@@ -1122,9 +1208,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/safello
-  in_network: false
-  is_api_provider: false
-  suggested_slug: safello
+  in_network: true
+  is_api_provider: true
+  slug: safello
+  matched_by: domain
 - name: Salesape
   url: https://www.salesape.ai
   description: SalesAPE is an AI Sales agent targeting non-technical SMBs. SalesAPE is trained using existing
@@ -1134,9 +1221,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/salesape
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salesape
+  slug: salesape
+  matched_by: domain
 - name: Seamflow
   url: https://www.seamflow.com
   description: Seamflow builds AI software as the operating system for Testing, Inspection, and Certification
@@ -1144,9 +1232,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/seamflow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seamflow
+  slug: seamflow
+  matched_by: domain
 - name: Sellersfi
   url: https://sellersfi.com
   description: SellersFi is a developer of a financial platform designed to provide fully automated funding
@@ -1156,9 +1245,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/sellersfi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sellersfi
+  slug: sellersfi
+  matched_by: domain
 - name: Seriously
   url: http://www.seriously.com
   description: Seriously is a mobile-first entertainment start-up focused on building mobile games that
@@ -1168,9 +1258,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/seriously
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seriously
+  slug: seriously
+  matched_by: domain
 - name: Solveai
   url: https://solve.ai
   description: Founded by former Palantir Technologies engineer Steve Basher, SolveAI enables anyone in
@@ -1179,9 +1270,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/solveai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solveai
+  slug: solveai
+  matched_by: domain
 - name: Solvimon
   url: https://www.solvimon.com
   description: Solvimon is building the next-generation end-to-end billing and pricing platform for mid-market
@@ -1190,9 +1282,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/solvimon
-  in_network: false
-  is_api_provider: false
-  suggested_slug: solvimon
+  in_network: true
+  is_api_provider: true
+  slug: solvimon
+  matched_by: domain
 - name: Sona
   url: https://www.getsona.com
   description: 'Almost every organisation buys software to manage its workforce. But there are hardly
@@ -1203,9 +1296,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/sona
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sona
+  slug: sona
+  matched_by: name-slug
 - name: Soundtrack Your Brand
   url: https://www.soundtrackyourbrand.com
   description: Soundtrack Your Brand is a Spotify joint venture and the exclusive provider of Spotify
@@ -1214,9 +1308,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/soundtrack-your-brand
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soundtrack-your-brand
+  slug: soundtrackyourbrand
+  matched_by: domain
 - name: Sourcepoint
   url: https://www.sourcepoint.com
   description: Sourcepoint provides premium publishers with content compensation alternatives that foster
@@ -1243,9 +1338,10 @@ companies:
   sector: infra-devtools
   status: unknown
   source: https://northzone.com/portfolio/soveren
-  in_network: false
-  is_api_provider: false
-  suggested_slug: soveren
+  in_network: true
+  is_api_provider: true
+  slug: soveren
+  matched_by: domain
 - name: Spaceape
   url: http://spaceapegames.com
   description: Space Ape is a mobile gaming company dedicated to creating the highest quality games for
@@ -1253,9 +1349,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/spaceape
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spaceape
+  slug: space-ape
+  matched_by: domain
 - name: Spacemaker
   url: http://spacemaker.ai
   description: Spacemaker is helping developers, architects, and urban planners build better and more
@@ -1265,9 +1362,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/spacemaker
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spacemaker
+  slug: spacemaker
+  matched_by: domain
 - name: Spektr
   url: https://spektr.com
   description: KYC continues to be a major headache for both financial and non-financial companies that
@@ -1279,9 +1377,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/spektr
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spektr
+  in_network: true
+  is_api_provider: true
+  slug: spektr
+  matched_by: domain
 - name: Spotify
   url: https://www.spotify.com
   description: Spotify is a global audio streaming service offering on-demand access to music, podcasts,
@@ -1313,9 +1412,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/stepstone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stepstone
+  slug: stepstone
+  matched_by: domain
 - name: Sticky
   url: http://www.sticky.ai
   description: Disruptive biometric SaaS Visual Marketing technology to optimize web, email, ads, video,
@@ -1323,9 +1423,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/sticky
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sticky
+  slug: sticky
+  matched_by: domain
 - name: Stockeld Dreamery
   url: http://noquofoods.com
   description: Stockeld Dreamery is created to reinvent the vegan foods using today’s technologies and
@@ -1333,9 +1434,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/stockeld-dreamery
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stockeld-dreamery
+  slug: stockeld-dreamery
+  matched_by: name-slug
 - name: Stonly
   url: https://stonly.com
   description: Stonly is a software company that helps improve user satisfaction, activation, and retention
@@ -1348,9 +1450,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/stonly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stonly
+  slug: stonly
+  matched_by: domain
 - name: Stream
   url: http://wagestream.co.uk
   description: Stream is a workplace finance platform, helping employees access earned pay early, budget,
@@ -1369,9 +1472,10 @@ companies:
   sector: infra-devtools
   status: unknown
   source: https://northzone.com/portfolio/sunscreen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunscreen
+  slug: sunscreen
+  matched_by: domain
 - name: Supponor
   url: https://www.supponor.com
   description: Supponor Systems builds and commercializes Digital Billboard Replacement (DBRLive) technology
@@ -1381,9 +1485,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/supponor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supponor
+  slug: supponor
+  matched_by: domain
 - name: Tana
   url: https://tana.inc
   description: Tana is part automated-list builder and note taker, part application enabler, and part
@@ -1393,9 +1498,10 @@ companies:
   sector: consumer; ai
   status: unknown
   source: https://northzone.com/portfolio/tana
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tana
+  in_network: true
+  is_api_provider: true
+  slug: tana
+  matched_by: domain
 - name: Tandem Health
   url: https://www.tandemhealth.ai
   description: Tandem Health is an AI co-pilot for clinicians that reduces admin by transcribing consultations
@@ -1404,9 +1510,10 @@ companies:
   sector: healthcare; ai
   status: unknown
   source: https://northzone.com/portfolio/tandem-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tandem-health
+  slug: tandem-health
+  matched_by: domain
 - name: Thirty Madison
   url: http://thirtymadison.com
   description: Thirty Madison is rebuilding the healthcare experience for the modern consumer. Their first
@@ -1414,9 +1521,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/thirty-madison
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thirty-madison
+  slug: thirty-madison
+  matched_by: domain
 - name: Tier
   url: http://tier.app
   description: TIER is here to change urban mobility for good! TIER provides electric scooters that can
@@ -1426,9 +1534,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/tier
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tier
+  slug: tier
+  matched_by: name-slug
 - name: Tobii
   url: https://www.tobii.com
   description: Tobii Technology provides hardware and software solutions for eye tracking; a technology
@@ -1438,9 +1547,10 @@ companies:
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/tobii
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tobii
+  slug: tobii
+  matched_by: domain
 - name: Topline Pro
   url: https://www.toplinepro.com
   description: Topline Pro is a truly personalized, "done-for-you" marketing and operations platform designed
@@ -1449,9 +1559,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/topline-pro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: topline-pro
+  slug: topline-pro
+  matched_by: domain
 - name: Troop
   url: https://www.troop.com
   description: Troop was founded by three friends in Brooklyn in 2021, inspired by the rise of movements
@@ -1460,9 +1571,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/troop
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: troop
+  slug: troop
+  matched_by: domain
 - name: Truelayer
   url: http://truelayer.com
   description: TrueLayer is Europe's leading open banking network, allowing businesses to access bank
@@ -1497,9 +1609,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/tuza
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tuza
+  slug: tuza
+  matched_by: name-slug
 - name: Unobravo
   url: https://www.unobravo.com
   description: Unobravo is the leading European mental health platform, taking a proactive role in setting
@@ -1509,18 +1622,20 @@ companies:
   sector: healthcare
   status: unknown
   source: https://northzone.com/portfolio/unobravo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unobravo
+  slug: unobravo
+  matched_by: domain
 - name: Videoplaza
   description: Empowering broadcasters and video publishers to build profitable and sustainable businesses
     in the internet-delivered TV world.
   sector: enterprise
   status: unknown
   source: https://northzone.com/portfolio/videoplaza
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: videoplaza
+  slug: videoplaza
+  matched_by: name-slug
 - name: Wallapop
   url: http://www.wallapop.com
   description: Wallapop is a mobile marketplace for consumers to buy and sell used goods in their local
@@ -1529,9 +1644,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://northzone.com/portfolio/wallapop
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wallapop
+  in_network: true
+  is_api_provider: true
+  slug: wallapop
+  matched_by: domain
 - name: Xbow
   url: https://xbow.com
   description: XBOW is a fully autonomous AI penetration testing platform that continuously identifies
@@ -1541,9 +1657,10 @@ companies:
   sector: enterprise; ai
   status: unknown
   source: https://northzone.com/portfolio/xbow
-  in_network: false
-  is_api_provider: false
-  suggested_slug: xbow
+  in_network: true
+  is_api_provider: true
+  slug: xbow
+  matched_by: domain
 - name: Yonder
   url: https://www.yondercard.com
   description: Yonder is a UK-based challenger credit and debit card, offering a points-based rewards
@@ -1551,18 +1668,20 @@ companies:
   sector: fintech; ai
   status: unknown
   source: https://northzone.com/portfolio/yonder
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yonder
+  slug: yonder
+  matched_by: domain
 - name: Zeal
   url: https://www.zeal.app
   description: Zeal has launched a DeFi wallet and crypto card.
   sector: infra-devtools
   status: unknown
   source: https://northzone.com/portfolio/zeal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeal
+  slug: zeal
+  matched_by: domain
 - name: Zervant
   url: http://zervant.com
   description: Zervant provides simple online invoicing for small businesses, freelancers and entrepreneurs.
@@ -1571,9 +1690,10 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/zervant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zervant
+  slug: zervant
+  matched_by: domain
 - name: Zettle
   url: https://www.zettle.com
   description: Zettle is a pioneering point-of-sale (PoS) technology provider helping small business accept
@@ -1594,6 +1714,7 @@ companies:
   sector: fintech
   status: unknown
   source: https://northzone.com/portfolio/zopa
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zopa
+  in_network: true
+  is_api_provider: true
+  slug: zopa
+  matched_by: domain

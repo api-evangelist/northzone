@@ -12,6 +12,17 @@ description: >-
   known for early backing of category creators including Spotify, Klarna, Trustpilot, Kahoot!, Personio,
   TrueLayer, Avito and iZettle. The firm supports portfolio companies through a Platform team and a
   network of 500+ operators drawn from companies such as OpenAI, Anthropic and Stripe.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://northzone.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
