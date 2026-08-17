@@ -287,20 +287,6 @@ companies:
   is_api_provider: false
   slug: disperse
   matched_by: name-slug
-- name: Distribusion
-  url: https://distribusion.com
-  description: Distribusion’s technology enables intercity bus operators to partner with travel resellers,
-    such as agencies, travel websites and mobility apps worldwide, without the effort of acquiring and
-    managing them mutually. Distribusion now provides 2 million bookable rides of more than 60 bus operators
-    covering 25 countries to online resellers with more than 10 million unique visitors per month and
-    to 4,000 travel agencies worldwide.
-  sector: enterprise
-  status: unknown
-  source: https://northzone.com/portfolio/distribusion
-  in_network: true
-  is_api_provider: false
-  slug: distribusion
-  matched_by: domain
 - name: Dots
   url: https://www.dots.co
   description: Dots is a casual game about connecting. Dots are aiming to create well designed, easy-to-approach,
