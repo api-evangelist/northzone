@@ -12,6 +12,17 @@ description: >-
   known for early backing of category creators including Spotify, Klarna, Trustpilot, Kahoot!, Personio,
   TrueLayer, Avito and iZettle. The firm supports portfolio companies through a Platform team and a
   network of 500+ operators drawn from companies such as OpenAI, Anthropic and Stripe.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
